@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:JokesWebAppContext"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "",
+      "secretStore": null,
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:SQLEXPRESS"
+    }
+  }
+}
